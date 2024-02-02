@@ -1,0 +1,27 @@
+.navbar__bottom{
+    width: 100%;
+    height: 600px;
+    background: url("../../assets//naruto-shippuden-hyperx-gaming-gear-store-image_feature.jpg") no-repeat center/cover;
+}
+
+
+@media screen and (max-width: 990px){
+    .navbar__bottom{
+        height: 350px;
+    }
+}
+@media screen and (max-width: 800px){
+    .navbar__bottom{
+        height: 280px;
+    }
+}
+@media screen and (max-width: 600px){
+    .navbar__bottom{
+        height: 220px;
+    }
+}
+@media screen and (max-width: 450px){
+    .navbar__bottom{
+        height: 180px;
+    }
+}

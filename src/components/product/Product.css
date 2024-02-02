@@ -1,0 +1,10 @@
+.product{
+    width: 100%;
+    height: 500px;
+    border: 1px solid red;
+}
+.product h2{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 35px;
+}
