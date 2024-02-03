@@ -1,7 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/navbar/Navbar';
-import Product from './components/product/Product';
 import Banner from './components/banner/Banner';
 import Home from './router/home/Home';
 import Single from "./router/singleroute/Single"
@@ -15,14 +14,13 @@ function App() {
     <div className="App">
 <Navbar/>
 <Banner/>
-<Product/>
+      <Routes>
+<Route path='/' element={<Home data={PRODUCT}/>}/>
+<Route path='/product/:id' element={<Single/>}/>
+</Routes>
 <Card/>
 <Two/>
 <Footer/>
-      <Routes>
-<Route path='/' element={<Home data={{PRODUCT}}/>}/>
-<Route path='/product/:id' element={<Single/>}/>
-</Routes>
     </div>
   );
 }

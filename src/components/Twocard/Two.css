@@ -39,6 +39,7 @@
         width: 350px;
         margin-left: 20px;
     }
+ 
     .twocard__title-img img{
         width: 350px;
         margin-left: 20px;
@@ -46,6 +47,6 @@
     .twocard__title-img h1{
         font-size: 29px;
         padding-top: 50px;
-        margin-left: 20px;
+      text-align: center;
     }
 }
