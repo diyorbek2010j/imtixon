@@ -1,9 +1,11 @@
 .navbar__bottom{
     width: 100%;
     height: 600px;
-    background: url("../../assets/HyperX_Pulsefire_Haste_2_Mini_homepage_hero_desktop_2880x1300_6b418d9a-5de3-44f5-a20a-080fbadbf3b3_1944x.jpg") no-repeat center/cover;
 }
-
+.navbar__bottom img{
+    width: 100%;
+    height: 100%;
+}
 
 @media screen and (max-width: 990px){
     .navbar__bottom{

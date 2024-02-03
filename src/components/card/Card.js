@@ -1,4 +1,5 @@
 import React from 'react'
+import { useLocation } from 'react-router-dom'
 import "./Card.css"
 import i from "../../assets/WEB_COD_720x720_adf0b9fd-7620-4d68-b0c7-3ef3418382eb_720x.jpg"
 import m from "../../assets/kf-4-hyperx-procast-professional-xlr-microphone_720x.jpg"
@@ -6,6 +7,10 @@ import g from "../../assets/HyperX_Armada_25_homepage_hero_mobile_720x720_1_720x
 import { GoArrowUpRight } from "react-icons/go";
 
 function Card() {
+    const {pathname} = useLocation()
+    if(pathname.includes("product")){
+        return <></>
+    }
   return (
     <div className='card'>
          <div className="card__cards">
