@@ -25,14 +25,14 @@ function Card() {
             </div>
          </div>
          <div className="card__cards">
+            <div className=" img__card card__img">
+                <img src={m} alt="" />
+            </div>
             <div className="card__title">
                 <p>Professional-grade condenser mic.</p>
                 <h1>HYPERX PROCAST</h1>
                 <h3>The HyperX ProCast is a professional-grade condenser microphone with an XLR connection built for people who make a living with their voices.</h3>
                 <button className='card__btn'>Shop Now <GoArrowUpRight /></button>
-            </div>
-            <div className=" img__card card__img">
-                <img src={m} alt="" />
             </div>
          </div>
          <div className="card__cards">

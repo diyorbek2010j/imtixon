@@ -1,5 +1,11 @@
 import React from 'react'
 import "./Footer.css"
+import a from "../../assets/shopify_pay-957a48d1202dc65a7890b292de764ee886f7e64cea486ae82e291e9dc824c914.svg"
+import b from "../../assets/american_express-12858714bc10cdf384b62b8f41d20f56d8c32c1b8fed98b662f2bfc158dcbcf0.svg"
+import c from "../../assets/apple_pay-f6db0077dc7c325b436ecbdcf254239100b35b70b1663bc7523d7c424901fa09.svg"
+import d from "../../assets/discover-cc9808e50193c7496e7a5245eb86d5e06f02e2476c0fe70f2c40016707d35461.svg"
+import h from "../../assets/google_pay-c66a29c63facf2053bf69352982c958e9675cabea4f2f7ccec08d169d1856b31.svg"
+import w from "../../assets/master-173035bc8124581983d4efa50cf8626e8553c2b311353fbf67485f9c1a2b88d1.svg"
 import { FaInstagram } from "react-icons/fa";
 import { CiFacebook } from "react-icons/ci";
 import { CiTwitter } from "react-icons/ci";
@@ -68,6 +74,15 @@ function Footer() {
 <div className="footer__midle-img">
 <img src={r} alt="" />
 </div>
+        </div>
+        <div className="footer__bottom">
+<img src={a} alt="" />
+<img src={b} alt="" />
+<img src={d} alt="" />
+<img src={c} alt="" />
+<img src={h} alt="" />
+<img src={w} alt="" />
+
         </div>
     </div>
   )
